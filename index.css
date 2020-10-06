@@ -1,0 +1,65 @@
+
+
+.main{
+    margin-top: 100px;
+
+}
+
+.card{
+    margin-left: 100px;
+}
+
+.navbar-nav {
+    margin-top: -5%;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.bg-cover {
+    height: 100%;
+    background-position-y: initial;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-class {
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+  }
+  
+.nav-link:active {
+    text-decoration: underline;
+  }
+
+.img {
+    image: center;
+}
+
+h1 {
+    text-emphasis: bold;
+}
+.btn {
+    align-items: center;
+}
+.name {
+    margin-top: -5%;
+}
+.aImg {
+    margin-top: -59%;
+    height: 500px;
+
+}
+.col-6 {
+    margin-left: 50px;
+}
+.col-4 {
+    margin-left: 10px;
+}
+.fab {
+    margin: 3px;
+}
