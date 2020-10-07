@@ -5,10 +5,11 @@
 
 } 
 
-/* .card{
+.card{
     align-items: center;
+    align-content: center;
 
-}  */
+}  
 
 .navbar-nav {
     margin-top: -5%;
