@@ -104,4 +104,4 @@ Within this project, I included:
 <br>
 
 ## Deployed Link:
-- [Link to Weather App Site](https://kellystone4.github.io/weatherApp/)
+- [Link to Updated Portfolio Site](https://kellystone4.github.io/updatedPortfolio/)
