@@ -4,19 +4,25 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-  <title>Contact</title>
+  <link rel="stylesheet" href="index.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <title>Portfolio</title>
 
 </head>
 
 <body class="bg-light position-relative">
 
   <!-- Optional JavaScript -->
+  <script src="script.js"></script>
+    
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -27,15 +33,35 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
+    
 
-
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="jumbotron bg-cover bg-muted text-white">
+  <nav class="navbar navbar-expand-lg navbar-light text-white">
     <hr>
 
     <!-- Top Header  -->
-    <a class="navbar-brand bg-info text-white" id="name" href="#">&emsp;Kelly Stone&emsp;</a>
+
+    <!-- <a class="navbar-brand text-dark grey" id="name" href="#">&emsp;Kelly Stone&emsp;</a> -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <b class="name text-muted">KELLY STONE</b>
+    <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <section class="navbar-nav ml-auto text-white"> 
+        <a class="nav-link text-muted" href="https://kellystone4.github.io/updatedPortfolio" class="active" data-scroll-nav="0">Home <span></span>
+        <a class="nav-link text-muted" href="https://kellystone4.github.io/updatedPortfolio/aboutMe" class="active" data-scroll-nav="0">About <span
+            class="sr-only">(current)</span></a> 
+        <a class="nav-link text-muted" href="https://kellystone4.github.io/updatedPortfolio/portfolio">Portfolio</a>
+        <a class="nav-link text-muted" href="https://kellystone4.github.io/updatedPortfolio/contact">Contact</a>
+      </section>
+    </section>
+  </nav>
+
+
+
+    <!-- Top Header  -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -61,13 +87,13 @@
 
         <!-- Card body  -->
 
-        <section class="card" style="width: 40rem;">
+        <section class="card mx-auto" style="width: 40rem;">
           <section class="square">
             <section class="row">
               <section class="col-md-12">
                 <section class="card-body">
-                  <section class="card-body text-info">
-                    <h2>Contact Me</h2>
+                  <section class="card-body text-muted">
+                    <h1 class="animate__animated animate__bounce text-center" >Contact Me</h1>
                     <hr>
                   </section>
                   <form>
@@ -85,26 +111,33 @@
                       <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Leave a message!"
                         rows="8"></textarea>
 
+                      
                       <br>
 
-                      <button type="submit" class="btn btn-info">Submit</button>
+                      <button type="submit" class="btn btn-dark">Submit</button>
+                      <br>
+                      
                     </section>
+                    
                   </form>
-
+                   <br>
                 </section>
               </section>
             </section>
           </section>
         </section>
       </section>
-
+      <br>
+      <br>
+      
   </main>
-  <footer>
 
-    <footer class="footer mt-auto py-3 fixed-bottom bg-secondary">
+  <!-- Footer  -->
+  <footer>
+    <footer class="footer mt-auto py-3 fixed-bottom">
       <section class="container">
-        <span class="text-light text-center">
-          <h6> © Copyright.</h6>
+        <span class="text-grey text-center">
+          <h6 class="text-muted"> © Copyright.</h6>
         </span>
       </section>
     </footer>
@@ -121,4 +154,5 @@
 </html>
 </section>
 </footer>
-</body>
+</body> 
+
