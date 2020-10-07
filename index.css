@@ -5,11 +5,11 @@
 
 } 
 
-.card{
+/* .card{
     align-items: center;
     align-content: center;
 
-}  
+}   */
 
 .navbar-nav {
     margin-top: -5%;
@@ -63,10 +63,22 @@ h1 {
     margin-left: 10px;
 }
 .fab {
-    margin: 3px;
+    margin-right: 65px;
+    margin-left: 65px;
 }
 .intro {
     margin-top: -2%;
+}
+
+.contact {
+    word-spacing: 100px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.contactInfo {
+    font-size: 12px;
+    word-spacing: 10px;
 }
 /* .aboutMeCard {
     opacity: 0%;
