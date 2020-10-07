@@ -1,13 +1,14 @@
 
 
-.main{
+/* .main{
     margin-top: 100px;
 
-}
+} */
 
 .card{
-    margin-left: 100px;
-}
+    align-items: center;
+    align-content: center;
+} 
 
 .navbar-nav {
     margin-top: -5%;
@@ -47,7 +48,7 @@ h1 {
     align-items: center;
 }
 .name {
-    margin-top: -5%;
+    margin-top: -50px;
 }
 .aImg {
     margin-top: -59%;
@@ -62,4 +63,7 @@ h1 {
 }
 .fab {
     margin: 3px;
+}
+.intro {
+    margin-top: -2%;
 }
