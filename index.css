@@ -56,9 +56,9 @@ h1 {
     margin-left: 10px;
 }
 .fab {
-    margin-right: 65px;
-    margin-left: 65px;
-    align-content: center;
+    text-align: center; 
+    width: 100%; 
+    
 }
 .intro {
     margin-top: -2%;
@@ -82,10 +82,29 @@ h1 {
     margin-right: 20px;
     margin-left: 20px;
     align-content: center;
+    color: white;
 }
 
 .am {
     align-content: center;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .aImg {
+        
+        height: 400px;
+        width: 300px;
+    }
+
+}
+
+.rtitle {
+    margin-right: 20px;
+}
+.resume {
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-right: -100px;
 }
