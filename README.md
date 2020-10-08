@@ -14,14 +14,12 @@
 </u>
 </center>
 
-### Our goal for this assignment was to create a weather app using our API from Open Weather. By using APIs, we are able to get information from another source and utilize it into our own sites. This can help save us the time and effort of doing research and data collection all on our own, and makes life easier!
+### Our goal for this assignment was to redesign our previous portfolio project! I took this opportunity to get creative and design something different from how it looked before.I am pleased with the outcome and seeing how far I've come in a few weeks makes this one of my favorite homework assignments thus far!
 
 <br>
 
 
-Through this assignment, I focused alot on understanding the code. Since the template was sent to us, I made sure to study it from top to bottom! My last couple of assignments I had alot of trouble with a few of the concepts, and being able to see it in a clear, formatted code was extremely helpful for me to understand what I did wrong in the past. Another thing that was really helpful for me in understanding all the steps to take for this assignment was to try a different kind of pseudo coding. Below, I show a picture of a more descriptive type of psuedo coding than the plain text and lists I had done previously. 
-
-I felt as though many things that I tried to change/take out/add in made the code more complicated and messy. I changed variable names, I decided to explain the code to show my understanding of it.
+The first thing I did for this assignment was to figure out what I wanted to do. My previous portfolio had looked quite plain, and so I made sure to design it to something I would be proud of. I would've liked to experiment with more animations that I have in mind, and I will definitely continue learning more so that I am able to fully execute my vision.
 
 <br>
 
@@ -34,12 +32,11 @@ Within this project, I included:
 <center>
 
 ```
-1. The use of APIs through Open Weather
-2. Useage of cards through JQuery
-3. History Log of the searches
-4. Icons depending on the weather
-5. UV color indicators 
-6. Date, city, temperature, humidity, wind speed, uv index
+1. Responsive web page
+2. Resume, Linkedin, Github and Email
+3. Aesthetic web layout
+4. Linked icon and pages
+
  ```
 
 </center>
@@ -55,23 +52,17 @@ Within this project, I included:
 
 <br>
 
-- There were alot of components to this project, and I was feeling myself getting confused. 
+- I had issues with the responsiveness of a couple of the pages and images. 
 
-    -  I solved this issue by trying a new type of pseudo coding that was alot easier for me to understand. Below is my rough draft:
+    -  I solved this issue by using responsive containers and cards, and a media query for my About Me page to shrink the image down to a size that would fit a mobile screen:
 
   <br>
 
-    ![Image](rd.png)
-    ![Image](red1.png)
+    ![Image](pseudocode.png)
+
 
    <br>
-- Figuring out how to get the Password Generator Button to give output from the coding for the password generator.
 
-    - To fix this, I realized all I needed was to add a simple 'float' to my image. This would make the text wrap around the image. Then, I added a margin to add space between my image and text. Below is an image of how it looked before and after I wrapped the text around the image (along with several other changes).
-    
-
-
-    <br>
 
 <br>
 
@@ -86,19 +77,19 @@ Within this project, I included:
 
 ## Table of Contents:
 1. Goal
-2. Module Description
-3. Criteria
-4. Issues
-5. Technologies Used
-6. Table of Contents
-7. Links
-8. Deployed Link
+2. Criteria
+3. Issues
+4. Technologies Used
+5. Table of Contents
+6. Links
+7. Deployed Link
+
 
 <br>
 
 ## Links:
 
-- [Link to Github](https://github.com/kellystone4/weatherApp)
+- [Link to Github](https://github.com/kellystone4/updatedPortfolio)
 - [Link to LinkedIn](https://www.linkedin.com/in/kelly-a-stone/)
 
 <br>
