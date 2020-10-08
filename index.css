@@ -49,11 +49,6 @@ h1 {
     align-items: center;
 }
 
-/* .aImg {
-    margin-top: -59%;
-    height: 500px; */
-
-}
 .col-6 {
     margin-left: 80px;
 }
@@ -91,5 +86,6 @@ h1 {
 
 .am {
     align-content: center;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
