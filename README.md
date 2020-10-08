@@ -58,7 +58,7 @@ Within this project, I included:
 
   <br>
 
-    ![Image](pseudocode.png)
+    ![Image](psuedocode.png)
 
 
    <br>
